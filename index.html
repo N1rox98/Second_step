@@ -4,174 +4,228 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Main page of ADASTREIA</title>
 </head>
 
 <body>
     <header>
-        <a href="#"> <img src="" alt=""> <p> ADASTREIA </p> </a>
-
-        <button type="button"><img src="" alt=""></button>
-
-        <!-- <button type="button" onclick="window.myDialog.show();">Просто открыть</button> ! -->
-
-        <!-- <dialog open="open"id="closeMe" >
-            <h1>Закрой меня! 🙏</h1>
-            <p>Результат этих кнопок одинаковый</p>
-
-            <form method="dialog">
-                если у тега button не указан type, то по-умолчанию он будет type="submit"
-                <button>Закрыть диалог</button>
-            </form>
-        </dialog> ! -->
+        <a href="#"> <img src="images/icon.svg" alt=""></a>
+        <button type="button" class="button"><img src="images/lines.svg" alt=""></button>
     </header>
 
     <main>
-        <h1>Main page on ADASTREIA</h1>
+        <h1 hidden>Main page on ADASTREIA</h1>
+
         <section>
-            <h2> Describe </h2>
-            <p>Детективно-информационное агентство</p>
-            <p>Владеешь информацией - владеешь миром</p>
-            <img src="" alt="">
-            <img src="" alt="">
-            <a href="#">Оформить заявку</a>
+            <div style="padding-left: 20px;">
+                <h2 class="heading2_1">Детективно-информационное <span>агентство</span></h2>
+                <p class="grey_text" style="line-height: 20px;">Владеешь информацией -<br>владеешь миром</p>
+            </div>
+            <!-- <div id="f"><img src="images/background1.svg" alt=""></div>
+            <div id="f1"><img src="images/image1.svg" alt=""></div> -->
+            <div class="section1-back">
+                <img class="section1-img" src="images/image1.svg" alt="">
+            </div>
+
+            <div class="parent" style="margin-left: 20px;">
+                <a href="#" class="text">Оформить заявку</a>
+                <img src="images/Addition.svg" alt="">
+            </div>
+
         </section>
-        <section>
-            <h2> Список услуг </h2>
-            <p>Услуги</p>
-            <p>Когда другие бессильны - мы делаем</p>
+
+        <section class="section2">
+            <div class="section2-header">
+                <h2 class="heading2_1"> Услуги </h2>
+                <p class="grey_text">Когда другие бессильны - мы делаем</p>
+            </div>
             <nav>
-                <ul>
-                    <li><a href="#foto1">Работа с информацией</a></li>
-                    <li><a href="#foto2">Розыск</a></li>
-                    <li><a href="#foto3">Слежка и наблдюдение</a></li>
-                    <li><a href="#foto4">Бизнес-разведка</a></li>
+                <ul class="ul-scroll">
+                    <li class="choice-section"><a href="#foto1">Работа с информацией</a></li>
+                    <li class="choice-section"><a href="#foto2">Розыск</a></li>
+                    <li class="choice-section"><a href="#foto3">Слежка и наблдюдение</a></li>
+                    <li class="choice-section"><a href="#foto4">Бизнес-разведка</a></li>
                 </ul>
             </nav>
-            <div>
-                <article id="foto1"><img src="" alt=""></article>
-                <p>Работа с информацией</p>
-                <ul>
-                    <li>
-                        <p>Поиск и проверка информации</p>
-                    </li>
-                    <li>
-                        <p>Составление персонального досье</p>
-                    </li>
-                    <li>
-                        <p>Работа с репутацией(защита персональных данных)</p>
-                    </li>
-                    <li>
-                        <p>Информация по номеру телефона</p>
-                    </li>
-                </ul>
-                <a href="#">Оформить заявку</a>
-            </div>
-            <div>
-                <article id="foto2"><img src="" alt=""></article>
-                <p>Розыск</p>
-                <ul>
-                    <li>
-                        <p>Розыск должника/мошенника</p>
-                    </li>
-                    <li>
-                        <p>Поиск пропавших людей</p>
-                    </li>
-                    <li>
-                        <p>Поиск родственников</p>
-                    </li>
-                    <li>
-                        <p>Поиск имущества</p>
-                    </li>
-                </ul>
-                <a href="#">Оформить заявку</a>
-            </div>
-            <div>
-                <article id="foto3"><img src="" alt=""></article>
-                <p>Слежка и наблюдение</p>
-                <ul>
-                    <li>
-                        <p>Наружное наблюдение</p>
-                    </li>
-                    <li>
-                        <p>Контрнаблюдение</p>
-                    </li>
-                    <li>
-                        <p>Проверка образа жизни ребёнка</p>
-                    </li>
-                </ul>
-                <a href="#">Оформить заявку</a>
-            </div>
-            <div>
-                <article id="foto4"><img src="" alt=""></article>
-                <p>Бизнес разведка</p>
-                <ul>
-                    <li>
-                        <p>Проверка контрагентов</p>
-                    </li>
-                    <li>
-                        <p>Досье на компанию</p>
-                    </li>
-                    <li>
-                        <p>Внештатная служба безопасности</p>
-                    </li>
-                    <li>
-                        <p>Корпоративное расследование</p>
-                    </li>
-                </ul>
-                <a href="#">Оформить заявку</a>
-            </div>
-        </section>
-        <section>
-            <h2> Описание плана работы </h2>
-            <p> Как мы работаем </p>
-            <ul>
-                <p> <img src="" alt=""> Разбираемся в информации </p>
-                <p> <img src="" alt=""> Составляем план действий </p>
-                <p> <img src="" alt=""> Предоставляем результат </p>
 
-            </ul>
+            <div class="scroll">
+                <div class="serviceDiv">
+                    <img class="service-img" src="images/service1.svg" alt="" id="foto1">
+                    <p style="font-size: 2rem; font-weight:bold; padding-left: 20px;">Работа с информацией</p>
+                    <ul class="ul-service">
+                        <li>
+                            <p>Поиск и проверка информации</p>
+                        </li>
+                        <li>
+                            <p>Составление персонального досье</p>
+                        </li>
+                        <li style="word-wrap: break-word">
+                            <p>Работа с репутацией</p>
+                            <p style="line-height: 2px">(защита персональных данных)</p>
+                        </li>
+                        <li>
+                            <p>Информация по номеру телефона</p>
+                        </li>
+                    </ul>
+                    <div class="service-application">
+                        <div><a href="#" class="text">Оформить заявку</a></div>
+                        <div><img src="images/Addition.svg" alt=""> </div>
+                    </div>
+                </div>
+                <div class="serviceDiv">
+                    <img class="service-img" src="images/service2.svg" alt="" id="foto2">
+                    <p style="font-size: 2rem; font-weight:bold; padding-left: 20px;">Розыск</p>
+                    <ul class="ul-service">
+                        <li>
+                            <p>Розыск должника/мошенника</p>
+                        </li>
+                        <li>
+                            <p>Поиск пропавших людей</p>
+                        </li>
+                        <li>
+                            <p>Поиск родственников</p>
+                        </li>
+                        <li>
+                            <p>Поиск имущества</p>
+                        </li>
+                    </ul>
+                    <div class="service-application">
+                        <div><a href="#" class="text">Оформить заявку</a></div>
+                        <div><img src="images/Addition.svg" alt=""> </div>
+                    </div>
+                </div>
+                <div class="serviceDiv">
+
+                    <img class="service-img" src="images/service3.svg" alt="" id="foto3">
+                    <p style="font-size: 2rem; font-weight:bold; padding-left: 20px;">Слежка и наблюдение</p>
+                    <ul class="ul-service">
+                        <li>
+                            <p>Наружное наблюдение</p>
+                        </li>
+                        <li>
+                            <p>Контрнаблюдение</p>
+                        </li>
+                        <li>
+                            <p>Проверка образа жизни ребёнка</p>
+                        </li>
+                    </ul>
+                    <div class="service-application">
+                        <div><a href="#" class="text">Оформить заявку</a></div>
+                        <div><img src="images/Addition.svg" alt=""> </div>
+                    </div>
+                </div>
+                <div class="serviceDiv">
+                    <img class="service-img" src="images/service4.svg" alt="" id="foto4">
+                    <p style="font-size: 2rem; font-weight:bold; padding-left: 20px;">Бизнес разведка</p>
+                    <ul class="ul-service">
+                        <li>
+                            <p>Проверка контрагентов</p>
+                        </li>
+                        <li>
+                            <p>Досье на компанию</p>
+                        </li>
+                        <li>
+                            <p>Внештатная служба безопасности</p>
+                        </li>
+                        <li>
+                            <p>Корпоративное расследование</p>
+                        </li>
+                    </ul>
+                    <div class="service-application">
+                        <div><a href="#" class="text">Оформить заявку</a></div>
+                        <div><img src="images/Addition.svg" alt=""> </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
         <section>
-            <h2> Перечесление клиентов </h2>
-            <p> Наши клиенты </p>
-            <ul>
-                <p> Политики </p>
-                <p> Бизнес </p>
-                <p> Селебрити </p>
-                <p> Частные лица </p>
-            </ul>
-            <p> Строго соблюдаем конфиденциальность и дорожим репутацией каждого клиента </p>
+
+            <h2 class="heading2_1"> Как мы работаем </h2>
+            <ol class="li1">
+
+                <li class="b1 li1">
+                    <p class="block-nums">01</p>
+                    <p class="block-text"> Разбираемся в информации </p>
+                </li>
+
+
+                <li class="b2 li1">
+                    <p class="block-nums">02</p>
+                    <p class="block-text"> Составляем план действий </p>
+                </li>
+
+
+                <li class="b3">
+                    <p class="block-nums">03</p>
+                    <p class="block-text"> Предоставляем результат </p>
+                </li>
+
+
+            </ol>
         </section>
-        <section>
-            <h2> Контактные данные </h2>
-            <p> Связаться с нами </p>
-            <div>
-                <p>
-                    <label for="name">Меня зовут </label>
-                    <input type="text" name="name" id="name" required>
-                </p>
+
+        <section class="section4">
+            <div class="section4-header">
+                <h2 class="heading2_1"> Наши клиенты </h2>
+                <p class="grey_text"> Строго соблюдаем конфиденциальность и дорожим репутацией каждого клиента </p>
             </div>
-            <div>
-                <p>
-                    <label for="tel">Мой номер </label>
-                    <input type="tel" name="phone" id="phone" required>
-                </p>
+
+            <div class="grid">
+                <div class="square">
+                    <img src="images/politicians.svg" alt="">
+                    <p>Политки</p>
+                </div>
+                <div class="square">
+                    <img src="images/buisness.svg" alt="">
+                    <p>Бизнес</p>
+                </div>
+                <div class="square">
+                    <img src="images/celebrity.svg" alt="">
+                    <p>Селебрити</p>
+                </div>
+                <div class="square">
+                    <img src="images/individuals.svg" alt="">
+                    <p>Частные лица</p>
+                </div>
             </div>
+
+
+        </section>
+
+        <section style="padding-left: 20px;">
+
+            <h2 class="heading2_1" style="line-height: 35px;">
+                Связаться <br>с нами
+            </h2>
             <div>
-                <p>
-                    <label for="email">Мой email </label>
-                    <input type="email" name="email" id="email" required>
-                </p>
+                <!-- <label for="name">Меня зовут </label> -->
+                <input placeholder="Меня зовут" type="text" name="name" id="name" required>
+
+                <!-- <label for="email">Мой email </label> -->
+                <input placeholder="Мой email" type="email" name="email" id="email" required>
+
+                <!-- <label for="tel">Мой номер</label> -->
+                <input placeholder="Мой номер" type="tel" name="phone" id="tel" required>
             </div>
-            <a href="#">Оформить заявку</a>
-            <p>Согласие на обработку персональных данных </p>
+            <div class="parent">
+                <div><a href="#" class="text">Оформить заявку</a></div>
+                <div><img src="images/Addition.svg" alt=""> </div>
+            </div>
+            <div class="obrabotka">
+                <img src="images/galka.svg" alt="">
+                <p class="grey_text" style="line-height: 15px;">Согласие на обработку <br> персональных данных </p>
+            </div>
         </section>
     </main>
     <footer>
-        <a href="">Политика конфиденциальности</a>
-        <a href="">Дизайн и разработка - Karanikola</a>
-        <p> 2022 </p>
+        <a href="" class="grey_text"><u>Политика<br>конфиденциальности</u></a>
+        <a href=""><u>Дизайн<br>и разработка -<br>Karanikola</u></a>
+        <p class="grey_text"> © 2022 </p>
     </footer>
 </body>
 

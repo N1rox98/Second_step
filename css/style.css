@@ -215,18 +215,18 @@ ol.li1 li {
 }
 
 .b1 {
-    background: url("C:/Users/Admin/Documents/Web/Second_steps/images/block1.svg") left 30px center no-repeat;
+    background: url(../images/block1.svg) left 30px center no-repeat;
     /* padding: 22px 0px 22px 0px; */
 }
 
 
 .b2 {
-    background: url("C:/Users/Admin/Documents/Web/Second_steps/images/block2.svg") left 30px center no-repeat;
+    background: url(../images/block2.svg) left 30px center no-repeat;
     /* padding: 22px 0px 22px 136px; */
 }
 
 .b3 {
-    background: url("C:/Users/Admin/Documents/Web/Second_steps/images/block3.svg") left 30px center no-repeat;
+    background: url(../images/block3.svg) left 30px center no-repeat;
     /* padding-top: 55px;
     padding-bottom: 55px; */
     /* padding: 22px 0px 22px 136px; */
@@ -275,7 +275,7 @@ ol.li1 li {
 }
 
 .section1-back {
-    background-image: url("C:/Users/Admin/Documents/Web/Second_steps/images/background1.svg");
+    background-image: url(../images/background1.svg);
     background-repeat: no-repeat;
     border: 1px bold blue;
     width: 375px;
@@ -315,7 +315,7 @@ ol.li1 li {
     background-color: #F3F6F9;
     margin-top: 50px;
     /* border-width: 100px 100px 100px 100px; */
-    background-image: url("C:/Users/Admin/Documents/Web/Second_steps/images/finger.svg");
+    background-image: url(../images/finger.svg);
     background-repeat: no-repeat;
     background-position: bottom right;
     width: auto;

@@ -1,0 +1,389 @@
+:root {
+    font-size: 62.5%;
+    --primary-color: #142251;
+    --secondary-color: #989EB1;
+    --border-color1: hsl(213887 6% 6%);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/* *, *:before, *:after {
+    box-sizing: inherit;
+  } */
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    /* justify-content: center; */
+    /* text-align: center; */
+    overflow-x: hidden;
+    align-items: center;
+    overflow: overlay;
+}
+
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid hsl(244, 38%, 90%);
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 0 20px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid hsl(244, 38%, 90%);
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.heading2_1 {
+    color: var(--primary-color);
+    font-weight: medium;
+    font-size: 4rem;
+}
+
+.heading2_1 span {
+    color: var(--secondary-color);
+    font-weight: medium;
+    font-size: 4rem;
+}
+
+
+.grey_text {
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+}
+
+#f {
+    position: relative;
+}
+
+#f1 {
+    bottom: 210px;
+    position: absolute;
+}
+
+.section1-back {
+    background-image: url("C:/Users/Admin/Documents/Web/Second_steps/images/background1.svg");
+    background-repeat: no-repeat;
+    border: 1px bold blue;
+    width: 375px;
+    height: 379px;
+    position: relative;
+    bottom: 60px;
+    margin-bottom: -30px;
+}
+
+.section1-img {
+    position: relative;
+    top: 60px;
+}
+
+.scroll {
+    overflow: auto;
+    height: 568px;
+    white-space: nowrap
+}
+
+.ul-scroll {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.choice-section {
+    display: inline-block;
+    clear: both;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 2px;
+    border: solid 2px var(--primary-color);
+}
+
+
+.serviceDiv {
+    /* box-shadow: 1px 1px 10px #999; */
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 10px 10px;
+    width: 335px;
+    height: 517px;
+    align-items: center;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.service-img {
+    object-fit: contain;
+    width: 315px;
+    height: 194px;
+    margin-left: 10px;
+}
+
+.ul-service {
+    list-style-type: '- ';
+    padding-left: 20px;
+}
+
+
+.service-application {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px;
+    border-color: hsl(244, 38%, 90%);
+    border-radius: 12px;
+    background-color: #F3F6F9;
+    font-size: 1.4rem;
+    width: 275px;
+    padding: 17px 19.5px;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 30px;
+}
+
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px;
+    border-color: hsl(244, 38%, 90%);
+    background-color: #F3F6F9;
+    border-radius: 12px;
+    /* background-color: hsl(244, 38%, 90%); */
+    font-size: 1.4rem;
+    max-width: 335px;
+    /* margin: 0 auto; */
+    padding: 17px 19.5px;
+}
+
+a.text:active,
+a.text:hover,
+a.text,
+a {
+    text-decoration: none;
+    color: #142251;
+}
+
+.vis-hid {
+    visibility: hidden;
+}
+
+.button {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+ol {
+    list-style: none;
+    padding-left: 0px;
+    margin-left: 0;
+}
+
+ol.li1 li {
+    border: 1px solid #989EB1;
+    /* padding-right: 0px;
+    padding-left: 167px; */
+    padding: 22px 0px 22px 167px;
+    width: 181px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    /* margin-left: 20px; */
+    /* position: relative; */
+}
+
+
+.block-text {
+    font-size: 2rem;
+}
+
+.block-nums {
+    position: relative;
+    bottom: 10px;
+    right: 0;
+    width: 171px;
+    text-align: right;
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.b1 {
+    background: url("C:/Users/Admin/Documents/Web/Second_steps/images/block1.svg") left 30px center no-repeat;
+    /* padding: 22px 0px 22px 0px; */
+}
+
+
+.b2 {
+    background: url("C:/Users/Admin/Documents/Web/Second_steps/images/block2.svg") left 30px center no-repeat;
+    /* padding: 22px 0px 22px 136px; */
+}
+
+.b3 {
+    background: url("C:/Users/Admin/Documents/Web/Second_steps/images/block3.svg") left 30px center no-repeat;
+    /* padding-top: 55px;
+    padding-bottom: 55px; */
+    /* padding: 22px 0px 22px 136px; */
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3%;
+    width: 369px;
+    margin-left: 10px;
+    padding-bottom: 41px;
+}
+
+.square {
+    aspect-ratio: 1/ 1;
+    display: flex;
+    padding: 5%;
+    background-color: #FFFFFF;
+    color: var(--secondary-color);
+    border-radius: 20px;
+    height: 160px;
+    width: 160px;
+}
+
+.square img {
+    width: 72.33px;
+    height: 72.33px;
+    position: relative;
+    left: 88px;
+    align-items: start;
+    top: 2px;
+    object-fit: contain;
+    object-position: left;
+}
+
+
+.square.fullimg img {
+    object-fit: cover;
+}
+
+.section1 {
+    width: auto;
+}
+
+.section2 {
+    border-radius: 30px;
+    background-color: #F3F6F9;
+    margin-top: 50px;
+    /* margin-right: -15px;
+    margin-left: -5px; */
+    padding-right: 20px;
+    align-items: center;
+    width: auto;
+}
+
+.section3 {
+    width: auto;
+}
+
+.section4 {
+
+    border-radius: 30px;
+    background-color: #F3F6F9;
+    margin-top: 50px;
+    /* border-width: 100px 100px 100px 100px; */
+    background-image: url("C:/Users/Admin/Documents/Web/Second_steps/images/finger.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: auto;
+    padding-right: 20px;
+    margin-right: -15px;
+    margin-left: -5px;
+}
+
+.section5 {
+    width: auto;
+}
+
+
+.section2-header {
+    position: relative;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.section4-header {
+    position: relative;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.square p {
+    color: var(--secondary-color);
+    align-items: center;
+    float: right;
+    position: relative;
+    top: 90px;
+    right: 70px;
+    font-size: 2rem;
+}
+
+input {
+    width: 337px;
+    height: 31px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #989EB1;
+    color: #142251;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    color: #989EB1;
+    font-size: 2rem;
+}
+
+input:focus {
+    border-color: var(--secondary-color);
+}
+
+.obrabotka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 189.5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

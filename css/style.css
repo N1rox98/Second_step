@@ -20,19 +20,11 @@ body {
     color: var(--primary-color);
     /* justify-content: center; */
     /* text-align: center; */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     align-items: center;
-    overflow: overlay;
+    /* overflow: overlay; */
 }
 
-.center-screen {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-}
 
 header {
     display: flex;
@@ -74,30 +66,14 @@ footer {
     font-size: 1.4rem;
 }
 
-#f {
+/* #f {
     position: relative;
 }
 
 #f1 {
     bottom: 210px;
     position: absolute;
-}
-
-.section1-back {
-    background-image: url("C:/Users/Admin/Documents/Web/Second_steps/images/background1.svg");
-    background-repeat: no-repeat;
-    border: 1px bold blue;
-    width: 375px;
-    height: 379px;
-    position: relative;
-    bottom: 60px;
-    margin-bottom: -30px;
-}
-
-.section1-img {
-    position: relative;
-    top: 60px;
-}
+} */
 
 .scroll {
     overflow: auto;
@@ -171,7 +147,7 @@ footer {
 }
 
 
-.parent {
+.application {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -194,9 +170,6 @@ a {
     color: #142251;
 }
 
-.vis-hid {
-    visibility: hidden;
-}
 
 .button {
     padding: 0;
@@ -242,18 +215,18 @@ ol.li1 li {
 }
 
 .b1 {
-    background: url("C:/Users/Admin/Documents/Web/Second_steps/images/block1.svg") left 30px center no-repeat;
+    background: url(../images/block1.svg) left 30px center no-repeat;
     /* padding: 22px 0px 22px 0px; */
 }
 
 
 .b2 {
-    background: url("C:/Users/Admin/Documents/Web/Second_steps/images/block2.svg") left 30px center no-repeat;
+    background: url(../images/block2.svg) left 30px center no-repeat;
     /* padding: 22px 0px 22px 136px; */
 }
 
 .b3 {
-    background: url("C:/Users/Admin/Documents/Web/Second_steps/images/block3.svg") left 30px center no-repeat;
+    background: url(../images/block3.svg) left 30px center no-repeat;
     /* padding-top: 55px;
     padding-bottom: 55px; */
     /* padding: 22px 0px 22px 136px; */
@@ -264,7 +237,7 @@ ol.li1 li {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3%;
-    width: 369px;
+    width: 370px;
     margin-left: 10px;
     padding-bottom: 41px;
 }
@@ -285,15 +258,36 @@ ol.li1 li {
     height: 72.33px;
     position: relative;
     left: 88px;
-    align-items: start;
+    /* align-items:  start; */
     top: 2px;
-    object-fit: contain;
-    object-position: left;
+    /* object-fit: contain; */
+    /* object-position: left; */
 }
 
+.square p {
+    color: var(--secondary-color);
+    align-items: center;
+    float: right;
+    position: relative;
+    top: 90px;
+    right: 70px;
+    font-size: 2rem;
+}
 
-.square.fullimg img {
-    object-fit: cover;
+.section1-back {
+    background-image: url(../images/background1.svg);
+    background-repeat: no-repeat;
+    border: 1px bold blue;
+    width: 375px;
+    height: 379px;
+    position: relative;
+    bottom: 60px;
+    margin-bottom: -30px;
+}
+
+.section1-img {
+    position: relative;
+    top: 60px;
 }
 
 .section1 {
@@ -321,7 +315,7 @@ ol.li1 li {
     background-color: #F3F6F9;
     margin-top: 50px;
     /* border-width: 100px 100px 100px 100px; */
-    background-image: url("C:/Users/Admin/Documents/Web/Second_steps/images/finger.svg");
+    background-image: url(../images/finger.svg);
     background-repeat: no-repeat;
     background-position: bottom right;
     width: auto;
@@ -349,15 +343,6 @@ ol.li1 li {
     padding-bottom: 20px;
 }
 
-.square p {
-    color: var(--secondary-color);
-    align-items: center;
-    float: right;
-    position: relative;
-    top: 90px;
-    right: 70px;
-    font-size: 2rem;
-}
 
 input {
     width: 337px;

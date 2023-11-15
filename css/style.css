@@ -77,16 +77,19 @@ footer {
 
 .scroll {
     overflow: auto;
+    /* width: auto; */
     height: 568px;
-    white-space: nowrap
+    white-space: nowrap;
+    padding: 0 20px 0 20px;
 }
 
 .ul-scroll {
-    width: 100%;
+    /* width: 100%; */
     overflow: auto;
     white-space: nowrap;
     margin-bottom: 20px;
-    padding-left: 20px;
+    margin-left: 0;
+    padding: 0 20px 0 20px;
 }
 
 .choice-section {
@@ -108,7 +111,7 @@ footer {
     padding-bottom: 30px;
     background-color: #FFFFFF;
     border-radius: 30px;
-    padding: 10px 10px;
+    padding-left: 10px;
     width: 335px;
     height: 517px;
     align-items: center;
@@ -298,11 +301,13 @@ ol.li1 li {
     border-radius: 30px;
     background-color: #F3F6F9;
     margin-top: 50px;
+    width: 375px;
     /* margin-right: -15px;
     margin-left: -5px; */
-    padding-right: 20px;
-    align-items: center;
-    width: auto;
+    /* padding-right: 2px; */
+    margin: 50px auto auto;
+    /* align-items: center; */
+    /* width: auto; */
 }
 
 .section3 {
@@ -313,15 +318,17 @@ ol.li1 li {
 
     border-radius: 30px;
     background-color: #F3F6F9;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     /* border-width: 100px 100px 100px 100px; */
     background-image: url(../images/finger.svg);
     background-repeat: no-repeat;
     background-position: bottom right;
     width: auto;
     padding-right: 20px;
-    margin-right: -15px;
-    margin-left: -5px;
+    /* margin-right: -15px;
+    margin-left: -5px; */
+    margin: 50px auto 0 auto;
+   width: 375px;
 }
 
 .section5 {
@@ -331,9 +338,9 @@ ol.li1 li {
 
 .section2-header {
     position: relative;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    /* padding-left: 20px; */
+     padding: 5px 0 5px 20px;
+   
 }
 
 .section4-header {
@@ -344,15 +351,14 @@ ol.li1 li {
 }
 
 
-input {
+.section5 input {
+    margin-bottom: 30px;
     width: 337px;
     height: 31px;
     outline: 0;
     border-width: 0 0 2px;
     border-color: #989EB1;
     color: #142251;
-    font-size: 2rem;
-    margin-bottom: 30px;
 }
 
 ::placeholder {

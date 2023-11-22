@@ -163,6 +163,7 @@ footer {
     max-width: 335px;
     /* margin: 0 auto; */
     padding: 17px 19.5px;
+    box-shadow: 5px 5px 15px hsl(240, 12%, 27%);
 }
 
 a.text:active,
@@ -378,3 +379,25 @@ input:focus {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+.gradient {
+    background: linear-gradient(30deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+    text-transform: uppercase;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     display: table;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }

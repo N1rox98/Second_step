@@ -140,8 +140,10 @@ footer {
 .scroll {
     overflow: auto;
     /* width: auto; */
+    width:335px;
     height: 568px;
     white-space: nowrap;
+    margin-left: 0;
     padding: 0 20px 0 20px;
 }
 
@@ -818,10 +820,9 @@ input:focus {
         /* width: auto; */
         height: 618px;
         white-space: nowrap;
-        padding: 0 0px 0 0px;
+        padding: 0 20px 0 20px;
     }
 
-    .scroll-flex {}
 
     .ul-scroll {
         display: none;
@@ -1185,3 +1186,36 @@ input:focus {
     width: auto;
 }
 
+
+
+form{
+    border:2px solid #0D61BC;
+    border-radius: 5px;
+}
+
+.class{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.l1 {
+    margin: 20px 10px;
+    max-width: 500px;
+    margin:10px auto;
+}
+
+.l2 {
+    margin: 20px 10px;
+    flex-direction: row;
+}
+
+fieldset{
+    overflow: hidden;
+    max-width: 700px;
+    margin:0 auto;
+}
+
+form {
+    margin: 10px 20px;
+}

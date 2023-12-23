@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <title>Main page of ADASTREIA</title>
+</head>
+
+<body>
+    <header>
+        <a href="#"> <img src="images/icon.svg" alt=""></a>
+        <div class="menu">
+            <a href="#">Главная</a>
+            <a href="#">О нас</a>
+            <a href="#">Услуги</a>
+            <a href="#">Как мы работаем</a>
+            <a href="#">Клиенты</a>
+            <a href="#">Контакты</a>
+        </div>
+        <div class="head-buttons">
+            <button type="button" class="button"><img src="images/lines.svg" alt=""></button>
+            <div class="application1">
+                <a href="#" class="text">Оформить заявку</a>
+                <img src="images/Addition.svg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2 hidden>Form</h2>
+            <form action="#" method="post">
+                <div class="class l1">
+                    <label for="name">
+                        Введите имя:</label>
+                    <input placeholder="Моё имя" type="text" name="name" id="name">
+
+                </div>
+                <!-- <div class="class l1">
+                    <label for="tel">Введите номер:</label>
+                    <input placeholder="Мой номер" type="tel" name="phone" id="tel" required>
+
+                </div> -->
+
+                <div class="class l1">
+
+                    <label for="start">Выберите дату: </label>
+
+                    <input type="date" id="start" name="trip-start" value="2018-07-22" min="1999-01-01"
+                        max="2023-12-31" >
+
+
+                </div>
+
+                <fieldset>
+                    <legend>Укажите свой пол:</legend>
+                    <div class="class l2">
+                        <div>
+                        <p><input style="max-width:400px;" type="radio" name="gender" value="male"> Мужчина </p>
+                        <p><input type="radio" name="gender" value="female"> Женщина </p>
+                    </div>
+
+                    </div>
+                </fieldset>
+                <div class="class l1">
+                    <label for="pass">Пароль(минимум 8):</label>
+                    <input type="password" id="pass" name="password" minlength="8" required >
+                </div>
+
+                <div class="class l1">
+                    <label class="hide" for="email">Введите адрес эл. почты</label>
+                    <input placeholder="Мой email" type="email" name="email" id="email" required>
+                </div>
+
+                <div class="class l1">
+                    <label class="hide" for="tel">Введите ваш номер</label>
+                    <input placeholder="Мой номер" type="tel" name="phone" id="tel" required>
+                </div>
+
+                <fieldset>
+                    <legend>Выберите наиболее удобное время для связи:</legend>
+
+                    <div class="class l2">
+                        <div>
+                            <input type="checkbox" id="morning" name="time" >
+                            <label for="morning">Утро</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="noon" name="time" >
+                            <label for="noon">День</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="afternoon" name="time" >
+                            <label for="afternoon">Вечер</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="night" name="time" >
+                            <label for="night">Ночь</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <!-- <input class="class l1" type="submit" value="Отправить" /> -->
+                <button class="class l1" type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-flex">
+            <div class="footer-flex1">
+                <a href="#"><img src="images/whatsup.svg" alt=""></a>
+                <a href="#">whatsapp</a>
+            </div>
+            <div class="footer-flex1">
+                <a href="#"><img src="images/whatsup.svg" alt=""></a>
+                <a href="#">whatsapp</a>
+            </div>
+            <div>
+                <a href="#">astraiera@mail.com</a>
+            </div>
+        </div>
+        <a href="" class="grey_text"><u>Политика<br>конфиденциальности</u></a>
+        <a href=""><u>Дизайн<br>и разработка -<br>Karanikola</u></a>
+        <p class="grey_text"> © 2022 </p>
+
+    </footer>
+</body>
+
+</html>

@@ -1208,6 +1208,7 @@ form{
 .l2 {
     margin: 20px 10px;
     flex-direction: row;
+    margin: 0 auto;
 }
 
 fieldset{

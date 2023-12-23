@@ -35,7 +35,7 @@
     <main>
         <section>
             <h2 hidden>Form</h2>
-            <form action="#" method="post">
+            <form action="“//httpbin.org/post" method="post">
                 <div class="class l1">
                     <label for="name">
                         Введите имя:</label>
@@ -53,7 +53,7 @@
                     <label for="start">Выберите дату: </label>
 
                     <input type="date" id="start" name="trip-start" value="2018-07-22" min="1999-01-01"
-                        max="2023-12-31" >
+                        max="2023-12-31">
 
 
                 </div>
@@ -62,15 +62,15 @@
                     <legend>Укажите свой пол:</legend>
                     <div class="class l2">
                         <div>
-                        <p><input style="max-width:400px;" type="radio" name="gender" value="male"> Мужчина </p>
-                        <p><input type="radio" name="gender" value="female"> Женщина </p>
-                    </div>
+                            <p><input style="max-width:400px;" type="radio" name="gender" value="male"> Мужчина </p>
+                            <p><input type="radio" name="gender" value="female"> Женщина </p>
+                        </div>
 
                     </div>
                 </fieldset>
                 <div class="class l1">
                     <label for="pass">Пароль(минимум 8):</label>
-                    <input type="password" id="pass" name="password" minlength="8" required >
+                    <input type="password" id="pass" name="password" minlength="8" required>
                 </div>
 
                 <div class="class l1">
@@ -88,29 +88,32 @@
 
                     <div class="class l2">
                         <div>
-                            <input type="checkbox" id="morning" name="time" >
+                            <input type="checkbox" id="morning" name="time">
                             <label for="morning">Утро</label>
                         </div>
 
                         <div>
-                            <input type="checkbox" id="noon" name="time" >
+                            <input type="checkbox" id="noon" name="time">
                             <label for="noon">День</label>
                         </div>
 
                         <div>
-                            <input type="checkbox" id="afternoon" name="time" >
+                            <input type="checkbox" id="afternoon" name="time">
                             <label for="afternoon">Вечер</label>
                         </div>
 
                         <div>
-                            <input type="checkbox" id="night" name="time" >
+                            <input type="checkbox" id="night" name="time">
                             <label for="night">Ночь</label>
                         </div>
                     </div>
                 </fieldset>
 
                 <!-- <input class="class l1" type="submit" value="Отправить" /> -->
-                <button class="class l1" type="submit">Отправить</button>
+                <div class="class l1" style="max-width: 300px;">
+                    <button class="" type="reset">Сбросить</button>
+                    <button class="" type="submit">Отправить</button>
+                </div>
             </form>
         </section>
     </main>
